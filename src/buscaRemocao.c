@@ -1,9 +1,6 @@
 #include <string.h>
 #include <stdio.h>
-#include <livro.h>
-
-struct Livro biblioteca[100];
-int totalLivros = 0;
+#include "livro.h"
 
     char busca[50];
     char remocao[50];
