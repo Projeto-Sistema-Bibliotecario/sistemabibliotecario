@@ -1,11 +1,6 @@
 #include <stdio.h>
+#include <livro.h>
 
-struct Livro {
-    int id;
-    char titulo[100];
-    char autor[100];
-    int disponivel;
-};
 
 struct Livro biblioteca[100];
 int totalLivros = 0;
